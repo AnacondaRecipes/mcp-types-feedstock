@@ -1,5 +1,5 @@
 {% set name = "mcp-types" %}
-{% set version = "2.0.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace("-", "_") }}-{{ version }}.tar.gz
-  sha256: d7d939b9285c9961ae8866ba75ef85da34d12bafe276efbf4eb6a131786d8379
+  sha256: d1e46549edb35ee19a94940fcee6d1addd7e589ab7ea92dda83f5d84781fc362
 
 build:
   skip: true  # [py<310]
